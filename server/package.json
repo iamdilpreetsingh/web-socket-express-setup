@@ -1,0 +1,30 @@
+{
+  "name": "web_socket_express",
+  "version": "1.0.0",
+  "description": "web sockets in express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdilpreetsingh/web-socket-express-setup.git"
+  },
+  "keywords": [
+    "socket.io",
+    "express"
+  ],
+  "author": "Dilpreet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamdilpreetsingh/web-socket-express-setup/issues"
+  },
+  "homepage": "https://github.com/iamdilpreetsingh/web-socket-express-setup#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
